@@ -34,6 +34,17 @@
 </head>
 
 <body>
+    <!--Objectives-->
+    <!--
+        1. Single-page style website with vertical dot navigation on the right hand side.
+        2. Toggleable page-wide navigation bar from the top right of the page.
+        3. Fading in of sections from the left/right sides of the page as you scroll down
+        4. Some sort of gallery or carousel for aesthetics. 
+        5. Server-side contact form where a user can directly send inquiries/suggestions.
+        6. Page translatable into a
+        Theme: Me. My photography, designing, traveling, etc. Should function as a resume, 
+        portfolio site, and a way to showcase my skills to anyone wanting to know about me.
+    -->
 
     <!--Navigation-->
     <nav class="navbar navbar-expand-md fixed-top navbar-dark">
@@ -59,7 +70,8 @@
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Looking for something?" aria-label="Search">
+                <input class="form-control mr-sm-2" type="text" placeholder="Looking for something?"
+                    aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
@@ -78,7 +90,11 @@
             <li data-target="#carousel" data-slide-to="2"></li>
             <li data-target="#carousel" data-slide-to="3"></li>
         </ol>
+
+        <!--Carousel Inner-->
         <div class="carousel-inner" role="listbox">
+
+            <!--Carousel: Active Slide/Item-->
             <div class="carousel-item active">
                 <a href="#">
 
@@ -93,13 +109,16 @@
                     <div class="carousel-caption">
                         <div>
                             <h2>TeJaun, the Developer</h2>
-                            <p>Making the world wide web more beautiful with every click of the mouse and tak of the keyboard.</p>
-                            <span class="btn btn-md btn-outline-primary">Take a Look!</span>
+                            <p>Making the world wide web more beautiful with every click of the mouse and tak of the
+                                keyboard.</p>
+                            <span class="btn btn-md btn-outline-danger">Take a Look!</span>
                         </div>
                     </div>
                 </a>
             </div>
-            <!-- /.carousel-item -->
+            <!--End of Carousel: Active Slide/Item-->
+
+            <!--Carousel Item II-->
             <div class="carousel-item">
                 <a href="#">
                     <picture>
@@ -119,7 +138,9 @@
                     </div>
                 </a>
             </div>
-            <!-- /.carousel-item -->
+            <!--End of Carousel Item II-->
+
+            <!--Carousel Item III -->
             <div class="carousel-item">
                 <a href="#">
                     <picture>
@@ -139,29 +160,33 @@
                     </div>
                 </a>
             </div>
-            <!-- /.carousel-item -->
+            <!--End of Carousel Item III-->
+
+            <!--Carousel Item IV -->
             <div class="carousel-item">
-                    <a href="#">
-                        <picture>
-                            <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
-                            <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
-                            <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
-                            <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image"
-                                class="d-block img-fluid">
-                        </picture>
-    
-                        <div class="carousel-caption justify-content-center align-items-center">
-                            <div>
-                                <h2>TeJaun, the Polyglot</h2>
-                                <p>Learn more about my endeavors to master some of the world's most influential and difficult languages.</p>
-                                <span class="btn btn-md btn-secondary">Enter</span>
-                            </div>
+                <a href="#">
+                    <picture>
+                        <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                        <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                        <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                        <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image"
+                            class="d-block img-fluid">
+                    </picture>
+
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h2>TeJaun, the Polyglot</h2>
+                            <p>Learn more about my endeavors to master some of the world's most influential and
+                                difficult languages.</p>
+                            <span class="btn btn-md btn-secondary">Enter</span>
                         </div>
-                    </a>
-                </div>
-                <!-- /.carousel-item -->
+                    </div>
+                </a>
+            </div>
+            <!-- End of Carousel Item IV -->
+
         </div>
-        <!-- /.carousel-inner -->
+        <!-- End of Carousel Inner -->
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -171,17 +196,48 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <!-- /.carousel -->
+    <!-- End of Carousel -->
 
     <!-- Work In Progress Message -->
-    <div class="wip">
+    <section class="wip">
         <h1 class="text-center">Welcome</h1>
         <p class="text-center">This is currently a work in progress. Thanks for bearing with me as I update this site.
             It'll be finished before you know it.</p>
         <p class="text-center">I apologize in advance for any inconviences. </p>
-    </div>
+    </section>
     <!--End of Work In Progress Message-->
 
+    <!--About-->
+    <section class="summary">
+        <h1>Quick Summary</h1>
+        <p>A long time ago a mom decided to get her son his first computer.</p>
+        <p>From there, the rest is history...</p>
+    </section>
+    <!--End of About-->
+
+    <!--Skillset-->
+    <section class="skillset"></section>
+    <!--End of Skillset-->
+
+    <!--Project Portfolio-->
+    <section class="projects"></section>
+    <!--End of Project Portfolio-->
+
+    <!--Experience-->
+    <section class="experience"></section>
+    <!--End of Experience-->
+
+    <!--Education-->
+    <section class="education"></section>
+    <!--End of Education-->
+
+    <!--Contact Me-->
+    <section class="contact-me"></section>
+    <!--End of Contact Me-->
+
+    <!--Footer-->
+    <footer class="footer"></footer>
+    <!--End of Footer-->
 
 
 </body>
