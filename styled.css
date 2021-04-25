@@ -86,7 +86,7 @@
 
 .home {
     display: flex;
-    background: url("images/teej.jpeg") no-repeat center;
+    background: url("images/PlaceholderWallpaperPhoto.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
